@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>/
+    <div class="container">
+        <h2>Registration form</h2>
+        <hr>
+        <form action="/action.php">
+            <div class="form-group">
+                <label for="email">Enter your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email ID" required>
+            <div class="form-group">
+                <label for="password">Enter your Password</label>
+                <input type="password" id="password" name="password" placeholder="Your Password" required>
+                <label for="confirm-password">Confirm Your password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Your Password" required>
+            </div>
+            <div class="radio-group">
+                <p>Your Qualification</p>
+                <hr>
+                <label>
+                    <input type="radio" name="qualification" value="BCA"> BCA
+                </label>
+                <label>
+                    <input type="radio" name="qualification" value="B.TECH"> B.TECH
+                </label>
+                <label>
+                    <input type="radio" name="qualification" value="B.Com"> B.Com
+                </label>
+                <label>
+                    <input type="radio" name="qualification" value="MCA"> MCA
+                </label>
+                </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
